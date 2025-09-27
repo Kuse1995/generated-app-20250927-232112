@@ -1,5 +1,5 @@
 # ConnectFlow: AI-Powered WhatsApp Lead Conversion
-[cloudflarebutton]
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/Kuse1995/generated-app-20250927-232112)
 > An AI-powered platform that uses an OpenAI Assistant on WhatsApp to convert leads for social media services and notifies you when they're ready to pay.
 ConnectFlow is a sophisticated platform designed to automate client outreach and lead qualification via WhatsApp. It seamlessly integrates a powerful OpenAI Assistant with Twilio's WhatsApp API. The core mission of the AI is to engage potential clients, present social media service packages, and persuade them to subscribe. When a client expresses a clear intent to purchase, the system automatically flags them as a 'hot lead' and sends an email notification to the sales team, enabling a human agent to finalize the deal. The application features a minimalist, professional dashboard to monitor all conversations in real-time, view chat histories, and manage qualified leads, providing a complete, streamlined solution for modern sales automation.
 ## ✨ Key Features
@@ -82,7 +82,7 @@ This project is designed for seamless deployment to Cloudflare Workers.
     Wrangler will prompt you to enter the value for each secret. These secrets will be securely available to your worker.
 3.  **Deploy with the Button:**
     Alternatively, you can deploy this project with a single click.
-    [cloudflarebutton]
+    [![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/Kuse1995/generated-app-20250927-232112)
 ## 📂 Project Structure
 -   `src/`: Contains all the frontend React application code, including pages, components, and utilities.
 -   `worker/`: Contains all the backend Cloudflare Worker code, including the Hono router, Durable Objects (`agent.ts`, `app-controller.ts`), and API integration logic.
